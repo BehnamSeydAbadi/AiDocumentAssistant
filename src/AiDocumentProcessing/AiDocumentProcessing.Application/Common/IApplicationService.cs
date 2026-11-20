@@ -1,0 +1,3 @@
+﻿namespace AiDocumentProcessing.Application.Common;
+
+public interface IApplicationService;

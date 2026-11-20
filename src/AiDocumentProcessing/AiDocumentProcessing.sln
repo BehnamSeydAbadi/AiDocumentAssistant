@@ -2,9 +2,11 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiDocumentProcessing.Api", "AiDocumentProcessing.Api\AiDocumentProcessing.Api.csproj", "{4C397589-F848-456E-89D1-7FFB13A656CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiDocumentProcessing.Services", "AiDocumentProcessing.Services\AiDocumentProcessing.Services.csproj", "{EDB7FAC5-CA73-43A8-8AC4-C24A7EFBCA7D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiDocumentProcessing.Application", "AiDocumentProcessing.Application\AiDocumentProcessing.Application.csproj", "{151B8214-156A-4EAF-8214-CC1233E3C8B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiDocumentProcessing.Services.Tests", "AiDocumentProcessing.Services.Tests\AiDocumentProcessing.Services.Tests.csproj", "{B1287E18-CCEE-4D44-99C7-63F77D76281F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiDocumentProcessing.Application.Test", "AiDocumentProcessing.Application.Test\AiDocumentProcessing.Application.Test.csproj", "{165AAE39-B9A9-4EF6-8A8D-D3612A9BBFAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiDocumentProcessing.Infrastructure", "AiDocumentProcessing.Infrastructure\AiDocumentProcessing.Infrastructure.csproj", "{01C081B3-25A9-4645-890D-A8B3254F9832}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,13 +18,17 @@ Global
 		{4C397589-F848-456E-89D1-7FFB13A656CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C397589-F848-456E-89D1-7FFB13A656CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C397589-F848-456E-89D1-7FFB13A656CD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EDB7FAC5-CA73-43A8-8AC4-C24A7EFBCA7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EDB7FAC5-CA73-43A8-8AC4-C24A7EFBCA7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EDB7FAC5-CA73-43A8-8AC4-C24A7EFBCA7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EDB7FAC5-CA73-43A8-8AC4-C24A7EFBCA7D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B1287E18-CCEE-4D44-99C7-63F77D76281F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B1287E18-CCEE-4D44-99C7-63F77D76281F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B1287E18-CCEE-4D44-99C7-63F77D76281F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B1287E18-CCEE-4D44-99C7-63F77D76281F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{151B8214-156A-4EAF-8214-CC1233E3C8B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{151B8214-156A-4EAF-8214-CC1233E3C8B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{151B8214-156A-4EAF-8214-CC1233E3C8B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{151B8214-156A-4EAF-8214-CC1233E3C8B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{165AAE39-B9A9-4EF6-8A8D-D3612A9BBFAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{165AAE39-B9A9-4EF6-8A8D-D3612A9BBFAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{165AAE39-B9A9-4EF6-8A8D-D3612A9BBFAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{165AAE39-B9A9-4EF6-8A8D-D3612A9BBFAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01C081B3-25A9-4645-890D-A8B3254F9832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01C081B3-25A9-4645-890D-A8B3254F9832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01C081B3-25A9-4645-890D-A8B3254F9832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01C081B3-25A9-4645-890D-A8B3254F9832}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
