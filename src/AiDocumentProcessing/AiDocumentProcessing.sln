@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiDocumentProcessing.Applic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiDocumentProcessing.Infrastructure", "AiDocumentProcessing.Infrastructure\AiDocumentProcessing.Infrastructure.csproj", "{01C081B3-25A9-4645-890D-A8B3254F9832}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiDocumentProcessing.Infrastructure.Test", "AiDocumentProcessing.Infrastructure.Test\AiDocumentProcessing.Infrastructure.Test.csproj", "{7685C9BA-8692-408F-9FB2-5DDBE1CA6568}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{01C081B3-25A9-4645-890D-A8B3254F9832}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01C081B3-25A9-4645-890D-A8B3254F9832}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01C081B3-25A9-4645-890D-A8B3254F9832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7685C9BA-8692-408F-9FB2-5DDBE1CA6568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7685C9BA-8692-408F-9FB2-5DDBE1CA6568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7685C9BA-8692-408F-9FB2-5DDBE1CA6568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7685C9BA-8692-408F-9FB2-5DDBE1CA6568}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

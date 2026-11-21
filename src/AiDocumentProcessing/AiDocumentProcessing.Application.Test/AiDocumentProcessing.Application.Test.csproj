@@ -18,4 +18,8 @@
         <Using Include="Xunit"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\AiDocumentProcessing.Application\AiDocumentProcessing.Application.csproj" />
+    </ItemGroup>
+
 </Project>
